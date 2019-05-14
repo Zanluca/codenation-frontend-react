@@ -1,3 +1,5 @@
+import fetch from 'isomorphic-fetch'
+
 const API_PATH = 'http://localhost:3030/api'
 
 const getRecipesByIngredients = async (ingredients, page = 1) => {
